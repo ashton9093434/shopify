@@ -1,7 +1,7 @@
 const request = require('request');
 
 module.exports = {
-    sendWebhook: async (webhookURL, color, title, productDetails) => {
+    sendWebhook: async (https://discord.com/api/webhooks/795950652680437760/icXDQuSnbkCmbNBGuVDmpYhU1YTBJRPrYtItbkTuk0VzLv7zo3z7fdT78mrgOL8p1QbN, color, title, productDetails) => {
         try {            
             const embed = {
                 embeds: [{
@@ -16,8 +16,8 @@ module.exports = {
                         "url": productDetails.product.images[0].src
                     },
                     footer: {
-                        icon_url: "https://cdn.iconscout.com/icon/free/png-256/shopify-226579.png",
-                        text: "Shopify Monitor by Rock @ StormeIO"
+                        icon_url: "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Ffryingflips&psig=AOvVaw0WAOm2JJ7XOaBUn2uc0dk2&ust=1609930951849000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMCk8qXShO4CFQAAAAAdAAAAABAD",
+                        text: "FryingFlips"
                     },
                     type: 'rich',
                     fields: productDetails.restockedVariants.map((variant) => {
